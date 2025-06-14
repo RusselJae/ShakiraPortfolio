@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shakira's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">
+      <img src="logo.png" alt="Shakira Tan Logo" class="logo-img">
+      Shakira <span>Tan</span>
+    </a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#challenges">Challenges</a>
+      <a href="#future-plans">Future</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact"><button class="gradient-btn">Contact Me</button></a>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi It’s <span class="gradient-text">Shakira</span></h1>
+      <h3>
+        <P>Pursuer of Dreams, Lifelong Leaner 💗
+        <p>
+
+        <div class="social-icons">
+          <a href="https://www.facebook.com/shakira.tan.17?mibextid=LQQJ4d" target="_blank"><i
+              class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/shakirara_tan" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/ShakiraTan" target="_blank"><i class="bx bxl-github"></i></a>
+        </div>
+        <div class="btn-group">
+          <a href="RESUME.pdf" target="_blank" class="btn">View Resume</a>
+          <a href="RESUME.pdf" download class="btn">Download CV</a>
+        </div>
+    </div>
+    <div class="home-img">
+      <img src="image.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="image1.jpg" alt="">
+    </div>
+    <div class="about-content">
+      <h2>About <span>Me</span></h2>
+      <p>I am Shakira Tan, a dedicated and ambitious individual with a passion for learning and growth. I’m a working
+        student balancing academic life and practical experience. I specialize in HTML, CSS, and project management. I
+        strive to create innovative solutions and aim to make a positive impact through my work.</p>
+      <p><strong>Family Background:</strong> I come from a close-knit and supportive family who inspires me to pursue my
+        goals with dedication and heart.</p>
+    </div>
+  </section>
+
+  <!-- Acquired Skills Subsection -->
+  <section class="skills" id="skills">
+    <h1 class="main-title">Skills, Trainings & Certificates</h1>
+    <h2 class="heading">Acquired <span>Skills</span></h2>
+    <div class="projects-box">
+      <div class="project-card">
+        <h3 style="color: rgb(245, 187, 197);">HTML, CSS, JavaScript</h3>
+        <p>Core building blocks of responsive web design.</p>
+      </div>
+      <div class="project-card">
+        <h3 style="color: rgb(245, 187, 197);">Responsive Design</h3>
+        <p>Mobile-first, cross-browser compatible designs.</p>
+      </div>
+      <div class="project-card">
+        <h3 style="color: rgb(245, 187, 197);">Graphic Design</h3>
+        <p>Proficient in Figma and Adobe Photoshop.</p>
+      </div>
+      <div class="project-card">
+        <h3 style="color: rgb(245, 187, 197);">UI/UX Principles</h3>
+        <p>Designing intuitive and user-centered interfaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- You can add Trainings and Certificates sections below in a similar way -->
+
+
+
+
+  <section class="trainings" id="trainings">
+    <h2 class="heading">Attended <span>Trainings</span></h2>
+    <div class="projects-box">
+      <div class="project-card">
+        <h3>Web Dev Bootcamp</h3>
+        <p>Completed at CodeAcademy – Frontend fundamentals.</p>
+      </div>
+      <div class="project-card">
+        <h3>UI/UX Fundamentals</h3>
+        <p>Completed via Coursera – Intro to UX workflows.</p>
+      </div>
+      <div class="project-card">
+        <h3>Photoshop Essentials</h3>
+        <p>Adobe Photoshop basics – Completed at Udemy.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="certificates" id="certificates">
+    <h2 class="heading">Acquired <span>Certificates</span></h2>
+    <div class="certificates-container">
+
+      <div class="certificate-card">
+        <div class="certificate-img">
+          <img src="imageA.jpg" alt="image1">
+        </div>
+        <button class="btn" onclick="toggleCertificate('cert1')">View Certificate</button>
+        <img id="cert1" src="certificate1.png" alt="Certificate 1" class="full-certificate" style="display:none;" />
+        <h3><i class='bx bx-certification'></i> Certificate of Appreciation – Event Hosting</h3>
+        <div class="certificate-description">
+          <p>
+            Awarded for serving as the host of DCS Week 2024 at CvSU – Bacoor Campus. Recognized for excellent
+            communication,
+            confidence, and audience engagement during the event themed <em>“Hello World: Refresh. Reconnect.
+              Reload.”</em>This certificate highlights leadership, public speaking, and event management skills.
+          </p>
+        </div>
+      </div>
+
+      <div class="certificate-card" style="margin-top: -65px;">
+        <div class="certificate-img">
+          <img src="imageB.jpg" alt="My Photo 2">
+        </div>
+        <button class="btn" onclick="toggleCertificate('cert2')">View Certificate</button>
+        <img id="cert2" src="certificate2.png" alt="Certificate 2" class="full-certificate" style="display:none;" />
+        <h3><i class='bx bx-certification'></i> Certificate of Recognition – Academic Achievement</h3>
+        <div class="certificate-description">
+          <p>Awarded for exemplary academic performance as a Grade 12 student at Unida Christian College during S.Y.
+            2021–2022.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <script>
+    function toggleCertificate(id) {
+      const cert = document.getElementById(id);
+      if (cert.style.display === "block") {
+        cert.style.display = "none";
+      } else {
+        cert.style.display = "block";
+      }
+    }
+  </script>
+
+
+
+  <section class="project" id="projects">
+    <h2 class="heading">Personal <span>Projects</span></h2>
+
+    <div class="projects-box">
+      <div class="project-card">
+        <div class="project-content">
+          <h3 id="project1-text">REGISTRATION FORM</h3>
+          <p id="project1-description">GYM Registration</p>
+          <div class="btn" onclick="toggleProject('project1')">Review Project</div>
+          <div id="project1" class="project-img" style="display: none;">
+            <img src="project1.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-content">
+          <h3 id="project2-text">INVENTORY SYSTEM</h3>
+          <p id="project2-description">Takoyadon Inventory System</p>
+          <div class="btn" onclick="toggleProject('project2')">Review Project</div>
+          <div id="project2" class="project-img" style="display: none;">
+            <img src="project2.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-content">
+          <h3 id="project3-text">E-COMMERCE SYSTEM</h3>
+          <p id="project3-description">FitFlare E-Commerce</p>
+          <div class="btn" onclick="toggleProject('project3')">Review Project</div>
+          <div id="project3" class="project-img" style="display: none;">
+            <img src="imageH.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Add this script at the bottom of the body -->
+  <script>
+    function toggleProject(id) {
+      const projectImg = document.getElementById(id);
+      if (projectImg.style.display === "none" || projectImg.style.display === "") {
+        projectImg.style.display = "block";
+      } else {
+        projectImg.style.display = "none";
+      }
+    }
+  </script>
+
+
+
+  <section class="challenges" id="challenges">
+    <h2 class="heading">Challenges <span>& Learnings</span></h2>
+    <div class="challenges-container">
+
+      <div class="challenges-box">
+        <img src="image25.png" alt="">
+        <div class="challenges-layer">
+          <h4>Balancing Academics and Personal Life</h4>
+          <p style="font-size: 15px;">Managing school along with personal or family responsibilities taught me how to set priorities and stay
+            organized.</p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="challenges-box">
+        <img src="imageC.jpg" alt="">
+        <div class="challenges-layer">
+          <h4>Managing Time with Part-Time Work</h4>
+          <p style="font-size: 15px;">Juggling school, work, and rest helped me develop better time management through schedules and to-do lists.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="challenges-box">
+        <img src="imageD.jpg" alt="">
+        <div class="challenges-layer">
+          <h4>Burnout and Stress</h4>
+          <p style="font-size: 15px;">Facing academic pressure made me realize the importance of rest, self-care, and asking for help when
+            needed.</p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="challenges-box">
+        <img src="imageF.jpg" alt="">
+        <div class="challenges-layer">
+          <h4>Privacy and Boundaries Matter</h4>
+          <p style="font-size: 15px;">I learned that setting personal boundaries and protecting my peace is healthy — not everyone needs access
+            to every part of my life.</p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+  </section>
+
+  <section class="learnings" id="learnings">
+  <h2 class="heading">Key <span>Learnings</span></h2>
+  <div class="learnings-container">
+    <div class="learning-card">
+      <div class="icon-wrapper">
+        <i class='bx bx-brain'></i>
+      </div>
+      <h3>Technical Growth</h3>
+      <p>Mastered web development fundamentals including HTML, CSS, and JavaScript. Learned to create responsive designs and implement modern UI/UX principles.</p>
+    </div>
+
+    <div class="learning-card">
+      <div class="icon-wrapper">
+        <i class='bx bx-time'></i>
+      </div>
+      <h3>Time Management</h3>
+      <p>Developed effective strategies for balancing academics, work, and personal life. Learned to prioritize tasks and maintain a healthy work-life balance.</p>
+    </div>
+
+    <div class="learning-card">
+      <div class="icon-wrapper">
+        <i class='bx bx-group'></i>
+      </div>
+      <h3>Team Collaboration</h3>
+      <p>Gained experience in working with diverse teams, understanding different perspectives, and contributing effectively to group projects.</p>
+    </div>
+
+    <div class="learning-card">
+      <div class="icon-wrapper">
+        <i class='bx bx-bulb'></i>
+      </div>
+      <h3>Problem Solving</h3>
+      <p>Enhanced critical thinking skills through debugging code, finding creative solutions, and learning from mistakes.</p>
+    </div>
+
+    <div class="learning-card">
+      <div class="icon-wrapper">
+        <i class='bx bx-message-square-dots'></i>
+      </div>
+      <h3>Communication</h3>
+      <p>Improved both technical and interpersonal communication skills through project presentations and team interactions.</p>
+    </div>
+
+    <div class="learning-card">
+      <div class="icon-wrapper">
+        <i class='bx bx-heart'></i>
+      </div>
+      <h3>Self-Care</h3>
+      <p>Learned the importance of mental health, taking breaks, and maintaining a positive mindset while pursuing goals.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <section class="future-plans-section" id="future-plans">
+    <h2 class="section-title"> 𝑀𝓎 𝐹𝓊𝓉𝓊𝓇𝑒 𝒫𝓁𝒶𝓃𝓈 🥀</h2>
+    <div class="plans-wrapper">
+
+      <div class="plan-card with-bg" style="background-image: url('image7.png');">
+        <div class="overlay">
+          <h3>Career Growth</h3>
+          <p>Graduate and pursue a meaningful career using my passions in tech, creativity, and helping others.</p>
+        </div>
+      </div>
+
+      <div class="plan-card with-bg" style="background-image: url('image6.png');">
+        <div class="overlay">
+          <h3>Build to Help</h3>
+          <p>Develop a project or app that makes a real impact in people’s lives and solves real-world problems.</p>
+        </div>
+      </div>
+
+      <div class="plan-card with-bg" style="background-image: url('image12.png');">
+        <div class="overlay">
+          <h3>Lifelong Learning</h3>
+          <p>Continue attending trainings, workshops, and courses to keep learning and evolving.</p>
+        </div>
+      </div>
+
+      <div class="plan-card with-bg" style="background-image: url('image10.png');">
+        <div class="overlay">
+          <h3>Family First</h3>
+          <p>Support my family and make them proud through my hard work, dedication, and success.</p>
+        </div>
+      </div>
+
+      <div class="plan-card with-bg" style="background-image: url('image8.png');">
+        <div class="overlay">
+          <h3>Explore Cultures</h3>
+          <p>Travel the world to experience new cultures and perspectives that help me grow personally.</p>
+        </div>
+      </div>
+
+      <div class="plan-card with-bg" style="background-image: url('image13.png');">
+        <div class="overlay">
+          <h3>Personal Growth</h3>
+          <p>Grow emotionally and mentally into someone confident, resilient, and compassionate.</p>
+        </div>
+      </div>
+
+      <div class="plan-card with-bg" style="background-image: url('image18.png');">
+        <div class="overlay">
+          <h3>Give Back</h3>
+          <p>Share my knowledge and experiences to uplift others and give back to my community.</p>
+        </div>
+      </div>
+
+      <div class="plan-card with-bg" style="background-image: url('image21.png');">
+        <div class="overlay">
+          <h3>Inspire Others</h3>
+          <p>Inspire other young people to chase their dreams — no matter their background or challenges.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <div class="contact-info">
+    <div class="contact-card">
+      <i class='bx bx-envelope'></i>
+      <h3>Email</h3>
+      <p>shakiratan@gmail.com</p>
+    </div>
+    
+    <div class="contact-card">
+      <i class='bx bx-phone'></i>
+      <h3>Phone</h3>
+      <p>+63 912 345 6789</p>
+    </div>
+    
+    <div class="contact-card">
+      <i class='bx bx-map'></i>
+      <h3>Location</h3>
+      <p>Cavite, Philippines</p>
+    </div>
+  </div>
+
+    <form id="contact-form">
+      <div class="input-group">
+        <div class="input-box">
+          <input type="text" name="user_name" placeholder="Full Name" required>
+          <input type="email" name="user_email" placeholder="Email" required>
+        </div>
+        <div class="input-box">
+          <input type="number" name="user_phone" placeholder="Phone Number" required>
+          <input type="text" name="user_subject" placeholder="Subject" required>
+        </div>
+      </div>
+      <div class="input-group-2">
+        <textarea name="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="https://www.facebook.com/shakira.tan.17" target="_blank"><i class="bx bxl-facebook"></i></a>
+      <a href="https://www.instagram.com/shakirara_tan" target="_blank"><i class="bx bxl-instagram"></i></a>
+      <a href="https://github.com/ShakiraTan" target="_blank"><i class="bx bxl-github"></i></a>
+    </div>
+    <ul class="list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#challenges">Challenges</a></li>
+      <li><a href="#future">Future</a></li>
+
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="copyright">@ Shakira Tan | All Rights Reserved</p>
+  </footer>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    emailjs.init("wuuFm3q6M-F2al37w");
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
+      event.preventDefault();
+      emailjs.sendForm('service_mvf5x32', 'template_js6hrcv', this)
+        .then(() => alert("Message sent successfully!"))
+        .catch(error => alert("There was an error sending your message."));
+      this.reset();
+    });
+  </script>
+
+</body>
+
+</html>
